@@ -1,0 +1,268 @@
+/*   BASIC CSS RESET   */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+body {
+    font-size: 62.5%;
+    color: #444349;
+    font-family: "Great Vibes", "Libre Baskerville", "Mulish", cursive;
+}
+
+/*   HEADER PART   */
+
+.main-header {
+    background-image: url(assets/wedding-cover-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: table;
+}
+
+.wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.byline {
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #d2ba87;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: "Libre Baskerville", cursive;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: hsla(0,0%,100%,.9);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.header2 {
+    border-bottom: .2rem solid hsla(0,0%,100%,.9);
+}
+
+/*    LOCATIONS PART   */
+
+.locations {
+    background-image: url(/assets/background-pattern.png);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.location-div {
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: .3rem solid #444349;
+}
+
+.location-img {
+    width: 40%;
+    margin: 1rem auto;
+}
+
+.location-h1 {
+    color: #444349;
+}
+
+.location-h2 {
+    color: #444349;
+    font-weight: 900;
+}
+
+h3 {
+    color: #444349;
+    font-family: "Mulish", cursive;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/*    PROGRAMS PART   */
+
+.programs {
+    background-image: url(assets/background-pattern.png);
+    background-color: hsla(100,0%,0%,.6);
+    background-blend-mode: overlay;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.programs h3 {
+    color: #d2ba87;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.programs ul li {
+    color: #d2ba87;
+    font-family: "Mulish", cursive;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+/*    GIFTS PART   */
+
+.gifts {
+    background-image: url(assets/background-pattern.png);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.gifts h1 {
+    color: #444349;
+}
+
+.gifts h3 {
+    font-family: "Libre Baskerville", cursive;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 2rem;
+}
+
+.gifts img {
+    width: 40%;
+    margin: 1rem auto;
+}
+
+.gifts p {
+    font-family: "Libre Baskerville", cursive;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 600;
+    padding: 2rem;
+}
+
+/*    QUESTIONS AND ANSWERS PART  */
+
+.q-and-a {
+    background-image: url(assets/background-pattern.png);
+    background-color: hsla(100,0%,0%,.6);
+    background-blend-mode: overlay;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.first h2, .second h2, .third h2 {
+    color:#d2ba87;
+    font-family: "Libre Baskerville", cursive;
+    font-size: 1.8rem;
+    padding: 2rem;
+}
+
+.first, .second, .third {
+    border-bottom: .2rem solid #d2ba87;
+}
+
+.question {
+    color:#d2ba87;
+    font-family: "Mulish", cursive;
+    font-weight: 900;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-left: 1rem;
+    padding: .5rem;
+}
+
+.answer {
+    color:#d2ba87;
+    font-family: "Mulish", cursive;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+span {
+    color: #bd806e;
+}
+
+.answer a {
+    text-decoration: none;
+}
+
+/*   CONTACT PART   */
+
+.contact {
+    background-image: url(assets/background-pattern.png);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: -1rem;
+}
+
+.contact h1 {
+    color: #444349;
+}
+
+.contact p {
+    font-family: "Mulish", cursive;
+    color: #444349;
+    font-weight: 900;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    padding: .5rem;
+}
+
+address a {
+    text-decoration: none;
+}
+
+/*    FOOTER PART    */
+
+.main-footer {
+    background-color: #606060;
+    height: 4rem;
+    width: 100vw;
+    display: table;
+}
+
+.main-footer .wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main-footer div {
+    text-align: center;
+    font-family: "Mulish", cursive;
+    color: hsla(0,0%,100%,.9);
+    font-weight: 900;
+    font-size: .8rem;
+    margin: 2rem;
+}
+
+.main-footer a {
+    text-decoration: none;
+}
+
+small {
+    display: block;
+    padding: .2rem;
+}
+
