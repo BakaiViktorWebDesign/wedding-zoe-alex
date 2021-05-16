@@ -7,10 +7,19 @@
     margin-bottom: 1rem;
 }
 
+/*   BASIC STYLES   */
+
 body {
     font-size: 62.5%;
     color: #444349;
     font-family: "Great Vibes", "Libre Baskerville", "Mulish", cursive;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #d2ba87;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 /*   HEADER PART   */
@@ -35,7 +44,7 @@ body {
     text-align: center;
 }
 
-h1 {
+.byline h1 {
     font-size: 4rem;
     color: #d2ba87;
     margin-top: 2rem;
@@ -44,15 +53,34 @@ h1 {
 
 h2 {
     font-family: "Libre Baskerville", cursive;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: hsla(0,0%,100%,.9);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .header2 {
-    border-bottom: .2rem solid hsla(0,0%,100%,.9);
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    border-bottom: .1rem solid hsla(0,0%,100%,.9);
+}
+
+/*   MEDIA QUERY PART   */
+
+@media all and (min-width: 480px) and (orientation: landscape) {
+    .byline {
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    .header2 {
+        display: inline-block;
+    }
+
+    .byline h1 {
+        font-size: 7rem;
+    }
 }
 
 /*    LOCATIONS PART   */
@@ -91,6 +119,17 @@ h3 {
     font-weight: 600;
 }
 
+/*   MEDIA QUERY PART   */
+
+@media all and (min-width: 480px) and (orientation: landscape) {
+    .location-div {
+        display: inline-block;
+        border-bottom: none;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+
 /*    PROGRAMS PART   */
 
 .programs {
@@ -118,6 +157,14 @@ h3 {
     font-size: 1.2rem;
     margin-left: 3rem;
     margin-bottom: 1rem;
+}
+
+/*   MEDIA QUERY PART   */
+
+@media all and (min-width: 480px) and (orientation: landscape) {
+    .programs ul {
+        display: inline-block;
+    }
 }
 
 /*    GIFTS PART   */
@@ -153,6 +200,14 @@ h3 {
     padding: 2rem;
 }
 
+/*   MEDIA QUERY PART   */
+
+@media all and (min-width: 480px) and (orientation: landscape) {
+    .gifts img {
+        width: 10%;
+    }
+}
+
 /*    QUESTIONS AND ANSWERS PART  */
 
 .q-and-a {
@@ -164,14 +219,14 @@ h3 {
     padding-bottom: 3rem;
 }
 
-.first h2, .second h2, .third h2 {
+.article-div h2 {
     color:#d2ba87;
     font-family: "Libre Baskerville", cursive;
     font-size: 1.8rem;
     padding: 2rem;
 }
 
-.first, .second, .third {
+.article-div {
     border-bottom: .2rem solid #d2ba87;
 }
 
@@ -205,6 +260,18 @@ span {
     text-decoration: none;
 }
 
+/*    MEDIA QUERY PART    */
+
+@media all and (min-width: 480px) and (orientation: landscape) {
+    .article-div {
+        display: inline-block;
+        border-bottom: none;
+        width: 30%;
+        vertical-align: top;
+        padding: 2rem;
+    }
+}
+
 /*   CONTACT PART   */
 
 .contact {
@@ -225,9 +292,8 @@ span {
     font-weight: 900;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
-    padding: .5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 address a {
